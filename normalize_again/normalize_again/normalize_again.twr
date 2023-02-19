@@ -1,0 +1,167 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml normalize_again.twx normalize_again.ncd -o
+normalize_again.twr normalize_again.pcf
+
+Design file:              normalize_again.ncd
+Physical constraint file: normalize_again.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+exp_in<0>      |exp_out<0>     |   10.954|
+exp_in<0>      |exp_out<1>     |   10.946|
+exp_in<0>      |exp_out<2>     |   10.899|
+exp_in<0>      |exp_out<3>     |   11.022|
+exp_in<0>      |exp_out<4>     |   10.818|
+exp_in<0>      |exp_out<5>     |   11.898|
+exp_in<0>      |exp_out<6>     |   11.785|
+exp_in<0>      |exp_out<7>     |   11.624|
+exp_in<1>      |exp_out<1>     |   11.071|
+exp_in<1>      |exp_out<2>     |   10.613|
+exp_in<1>      |exp_out<3>     |   10.736|
+exp_in<1>      |exp_out<4>     |   10.632|
+exp_in<1>      |exp_out<5>     |   11.566|
+exp_in<1>      |exp_out<6>     |   11.453|
+exp_in<1>      |exp_out<7>     |   11.292|
+exp_in<2>      |exp_out<2>     |   10.485|
+exp_in<2>      |exp_out<3>     |   10.608|
+exp_in<2>      |exp_out<4>     |   10.264|
+exp_in<2>      |exp_out<5>     |   11.623|
+exp_in<2>      |exp_out<6>     |   11.510|
+exp_in<2>      |exp_out<7>     |   11.349|
+exp_in<3>      |exp_out<3>     |   10.664|
+exp_in<3>      |exp_out<4>     |   10.157|
+exp_in<3>      |exp_out<5>     |   11.764|
+exp_in<3>      |exp_out<6>     |   11.651|
+exp_in<3>      |exp_out<7>     |   11.490|
+exp_in<4>      |exp_out<4>     |   10.315|
+exp_in<4>      |exp_out<5>     |   11.618|
+exp_in<4>      |exp_out<6>     |   11.505|
+exp_in<4>      |exp_out<7>     |   11.344|
+exp_in<5>      |exp_out<5>     |   10.886|
+exp_in<5>      |exp_out<6>     |   10.763|
+exp_in<5>      |exp_out<7>     |   10.602|
+exp_in<6>      |exp_out<6>     |   11.011|
+exp_in<6>      |exp_out<7>     |   10.850|
+exp_in<7>      |exp_out<7>     |   10.004|
+frac_in<0>     |frac_out<0>    |   11.002|
+frac_in<1>     |frac_out<0>    |   11.051|
+frac_in<1>     |frac_out<1>    |   11.090|
+frac_in<2>     |frac_out<1>    |   11.165|
+frac_in<2>     |frac_out<2>    |   10.946|
+frac_in<3>     |frac_out<2>    |   10.738|
+frac_in<3>     |frac_out<3>    |   11.168|
+frac_in<4>     |frac_out<3>    |   11.248|
+frac_in<4>     |frac_out<4>    |   11.481|
+frac_in<5>     |frac_out<4>    |   11.364|
+frac_in<5>     |frac_out<5>    |   11.486|
+frac_in<6>     |frac_out<5>    |   11.169|
+frac_in<6>     |frac_out<6>    |   11.668|
+frac_in<7>     |frac_out<6>    |   11.717|
+frac_in<7>     |frac_out<7>    |   11.691|
+frac_in<8>     |frac_out<7>    |   11.453|
+frac_in<8>     |frac_out<8>    |   11.149|
+frac_in<9>     |frac_out<8>    |   10.682|
+frac_in<9>     |frac_out<9>    |   10.503|
+frac_in<10>    |frac_out<9>    |   10.662|
+frac_in<10>    |frac_out<10>   |   10.988|
+frac_in<11>    |frac_out<10>   |   10.994|
+frac_in<11>    |frac_out<11>   |   10.982|
+frac_in<12>    |frac_out<11>   |   11.316|
+frac_in<12>    |frac_out<12>   |   11.357|
+frac_in<13>    |frac_out<12>   |   11.257|
+frac_in<13>    |frac_out<13>   |   11.459|
+frac_in<14>    |frac_out<13>   |   11.481|
+frac_in<14>    |frac_out<14>   |   11.083|
+frac_in<15>    |frac_out<14>   |   10.938|
+frac_in<15>    |frac_out<15>   |   10.888|
+frac_in<16>    |frac_out<15>   |   11.019|
+frac_in<16>    |frac_out<16>   |   11.558|
+frac_in<17>    |frac_out<16>   |   11.171|
+frac_in<17>    |frac_out<17>   |   10.877|
+frac_in<18>    |frac_out<17>   |   10.841|
+frac_in<18>    |frac_out<18>   |   10.981|
+frac_in<19>    |frac_out<18>   |   10.565|
+frac_in<19>    |frac_out<19>   |   10.883|
+frac_in<20>    |frac_out<19>   |   11.693|
+frac_in<20>    |frac_out<20>   |   11.530|
+frac_in<21>    |frac_out<20>   |   10.928|
+frac_in<21>    |frac_out<21>   |   11.266|
+frac_in<22>    |frac_out<21>   |   11.727|
+frac_in<22>    |frac_out<22>   |   11.613|
+frac_in<23>    |frac_out<22>   |   10.757|
+frac_in<23>    |frac_out<23>   |   10.543|
+frac_in<24>    |exp_out<0>     |   11.177|
+frac_in<24>    |exp_out<1>     |   11.169|
+frac_in<24>    |exp_out<2>     |   11.044|
+frac_in<24>    |exp_out<3>     |   11.167|
+frac_in<24>    |exp_out<4>     |   11.095|
+frac_in<24>    |exp_out<5>     |   11.789|
+frac_in<24>    |exp_out<6>     |   11.676|
+frac_in<24>    |exp_out<7>     |   11.515|
+frac_in<24>    |frac_out<0>    |   10.947|
+frac_in<24>    |frac_out<1>    |   11.307|
+frac_in<24>    |frac_out<2>    |   11.088|
+frac_in<24>    |frac_out<3>    |   11.447|
+frac_in<24>    |frac_out<4>    |   11.213|
+frac_in<24>    |frac_out<5>    |   11.335|
+frac_in<24>    |frac_out<6>    |   11.696|
+frac_in<24>    |frac_out<7>    |   11.670|
+frac_in<24>    |frac_out<8>    |   11.381|
+frac_in<24>    |frac_out<9>    |   11.202|
+frac_in<24>    |frac_out<10>   |   11.723|
+frac_in<24>    |frac_out<11>   |   11.711|
+frac_in<24>    |frac_out<12>   |   11.875|
+frac_in<24>    |frac_out<13>   |   12.077|
+frac_in<24>    |frac_out<14>   |   11.317|
+frac_in<24>    |frac_out<15>   |   11.267|
+frac_in<24>    |frac_out<16>   |   12.109|
+frac_in<24>    |frac_out<17>   |   11.815|
+frac_in<24>    |frac_out<18>   |   11.292|
+frac_in<24>    |frac_out<19>   |   11.610|
+frac_in<24>    |frac_out<20>   |   11.953|
+frac_in<24>    |frac_out<21>   |   12.291|
+frac_in<24>    |frac_out<22>   |   12.100|
+frac_in<24>    |frac_out<23>   |   11.886|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Nov 26 06:16:51 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 219 MB
+
+
+

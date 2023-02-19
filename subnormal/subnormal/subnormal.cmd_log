@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/subnormal/subnormal/subnormal.xst" -ofn "C:/Users/ayroz/Desktop/four/subnormal/subnormal/subnormal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 subnormal.ngc subnormal.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o subnormal_map.ncd subnormal.ngd subnormal.pcf 
+par -w -intstyle ise -ol high -mt off subnormal_map.ncd subnormal.ncd subnormal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml subnormal.twx subnormal.ncd -o subnormal.twr subnormal.pcf 

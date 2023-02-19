@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shfit_right.ngc shfit_right.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shfit_right_map.ncd shfit_right.ngd shfit_right.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right/shfit_right.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shfit_right.ngc shfit_right.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shfit_right_map.ncd shfit_right.ngd shfit_right.pcf 
+par -w -intstyle ise -ol high -mt off shfit_right_map.ncd shfit_right.ncd shfit_right.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shfit_right.twx shfit_right.ncd -o shfit_right.twr shfit_right.pcf 

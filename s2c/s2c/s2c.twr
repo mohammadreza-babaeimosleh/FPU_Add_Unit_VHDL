@@ -1,0 +1,457 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml s2c.twx s2c.ncd -o s2c.twr s2c.pcf
+
+Design file:              s2c.ncd
+Physical constraint file: s2c.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+num<0>         |comp<0>        |    8.018|
+num<0>         |comp<1>        |    8.916|
+num<0>         |comp<2>        |    8.599|
+num<0>         |comp<3>        |    8.378|
+num<0>         |comp<4>        |    8.288|
+num<0>         |comp<5>        |    8.070|
+num<0>         |comp<6>        |    8.530|
+num<0>         |comp<7>        |    8.161|
+num<0>         |comp<8>        |    8.458|
+num<0>         |comp<9>        |    8.376|
+num<0>         |comp<10>       |    8.556|
+num<0>         |comp<11>       |    8.694|
+num<0>         |comp<12>       |    8.668|
+num<0>         |comp<13>       |    9.021|
+num<0>         |comp<14>       |    8.856|
+num<0>         |comp<15>       |    9.160|
+num<0>         |comp<16>       |    9.206|
+num<0>         |comp<17>       |    9.214|
+num<0>         |comp<18>       |    9.508|
+num<0>         |comp<19>       |    9.288|
+num<0>         |comp<20>       |    9.521|
+num<0>         |comp<21>       |    9.668|
+num<0>         |comp<22>       |    9.722|
+num<0>         |comp<23>       |    9.677|
+num<0>         |comp<24>       |    9.625|
+num<0>         |comp<25>       |    9.727|
+num<0>         |comp<26>       |    9.914|
+num<1>         |comp<1>        |    9.018|
+num<1>         |comp<2>        |    8.746|
+num<1>         |comp<3>        |    8.531|
+num<1>         |comp<4>        |    8.434|
+num<1>         |comp<5>        |    8.216|
+num<1>         |comp<6>        |    8.676|
+num<1>         |comp<7>        |    8.307|
+num<1>         |comp<8>        |    8.604|
+num<1>         |comp<9>        |    8.522|
+num<1>         |comp<10>       |    8.702|
+num<1>         |comp<11>       |    8.840|
+num<1>         |comp<12>       |    8.814|
+num<1>         |comp<13>       |    9.167|
+num<1>         |comp<14>       |    9.002|
+num<1>         |comp<15>       |    9.306|
+num<1>         |comp<16>       |    9.352|
+num<1>         |comp<17>       |    9.360|
+num<1>         |comp<18>       |    9.654|
+num<1>         |comp<19>       |    9.434|
+num<1>         |comp<20>       |    9.667|
+num<1>         |comp<21>       |    9.814|
+num<1>         |comp<22>       |    9.868|
+num<1>         |comp<23>       |    9.823|
+num<1>         |comp<24>       |    9.771|
+num<1>         |comp<25>       |    9.873|
+num<1>         |comp<26>       |   10.060|
+num<2>         |comp<2>        |    8.538|
+num<2>         |comp<3>        |    8.319|
+num<2>         |comp<4>        |    8.268|
+num<2>         |comp<5>        |    8.050|
+num<2>         |comp<6>        |    8.510|
+num<2>         |comp<7>        |    8.141|
+num<2>         |comp<8>        |    8.438|
+num<2>         |comp<9>        |    8.356|
+num<2>         |comp<10>       |    8.536|
+num<2>         |comp<11>       |    8.674|
+num<2>         |comp<12>       |    8.648|
+num<2>         |comp<13>       |    9.001|
+num<2>         |comp<14>       |    8.836|
+num<2>         |comp<15>       |    9.140|
+num<2>         |comp<16>       |    9.186|
+num<2>         |comp<17>       |    9.194|
+num<2>         |comp<18>       |    9.488|
+num<2>         |comp<19>       |    9.268|
+num<2>         |comp<20>       |    9.501|
+num<2>         |comp<21>       |    9.648|
+num<2>         |comp<22>       |    9.702|
+num<2>         |comp<23>       |    9.657|
+num<2>         |comp<24>       |    9.605|
+num<2>         |comp<25>       |    9.707|
+num<2>         |comp<26>       |    9.894|
+num<3>         |comp<3>        |    8.121|
+num<3>         |comp<4>        |    8.072|
+num<3>         |comp<5>        |    7.854|
+num<3>         |comp<6>        |    8.314|
+num<3>         |comp<7>        |    7.945|
+num<3>         |comp<8>        |    8.242|
+num<3>         |comp<9>        |    8.160|
+num<3>         |comp<10>       |    8.340|
+num<3>         |comp<11>       |    8.478|
+num<3>         |comp<12>       |    8.452|
+num<3>         |comp<13>       |    8.805|
+num<3>         |comp<14>       |    8.640|
+num<3>         |comp<15>       |    8.944|
+num<3>         |comp<16>       |    8.990|
+num<3>         |comp<17>       |    8.998|
+num<3>         |comp<18>       |    9.292|
+num<3>         |comp<19>       |    9.072|
+num<3>         |comp<20>       |    9.305|
+num<3>         |comp<21>       |    9.452|
+num<3>         |comp<22>       |    9.506|
+num<3>         |comp<23>       |    9.461|
+num<3>         |comp<24>       |    9.409|
+num<3>         |comp<25>       |    9.511|
+num<3>         |comp<26>       |    9.698|
+num<4>         |comp<4>        |    8.280|
+num<4>         |comp<5>        |    8.034|
+num<4>         |comp<6>        |    8.583|
+num<4>         |comp<7>        |    8.231|
+num<4>         |comp<8>        |    8.569|
+num<4>         |comp<9>        |    8.487|
+num<4>         |comp<10>       |    8.667|
+num<4>         |comp<11>       |    8.805|
+num<4>         |comp<12>       |    8.779|
+num<4>         |comp<13>       |    9.132|
+num<4>         |comp<14>       |    8.967|
+num<4>         |comp<15>       |    9.271|
+num<4>         |comp<16>       |    9.317|
+num<4>         |comp<17>       |    9.325|
+num<4>         |comp<18>       |    9.619|
+num<4>         |comp<19>       |    9.399|
+num<4>         |comp<20>       |    9.632|
+num<4>         |comp<21>       |    9.779|
+num<4>         |comp<22>       |    9.833|
+num<4>         |comp<23>       |    9.788|
+num<4>         |comp<24>       |    9.736|
+num<4>         |comp<25>       |    9.838|
+num<4>         |comp<26>       |   10.025|
+num<5>         |comp<5>        |    7.778|
+num<5>         |comp<6>        |    8.372|
+num<5>         |comp<7>        |    8.026|
+num<5>         |comp<8>        |    8.357|
+num<5>         |comp<9>        |    8.275|
+num<5>         |comp<10>       |    8.455|
+num<5>         |comp<11>       |    8.593|
+num<5>         |comp<12>       |    8.567|
+num<5>         |comp<13>       |    8.920|
+num<5>         |comp<14>       |    8.755|
+num<5>         |comp<15>       |    9.059|
+num<5>         |comp<16>       |    9.105|
+num<5>         |comp<17>       |    9.113|
+num<5>         |comp<18>       |    9.407|
+num<5>         |comp<19>       |    9.187|
+num<5>         |comp<20>       |    9.420|
+num<5>         |comp<21>       |    9.567|
+num<5>         |comp<22>       |    9.621|
+num<5>         |comp<23>       |    9.576|
+num<5>         |comp<24>       |    9.524|
+num<5>         |comp<25>       |    9.626|
+num<5>         |comp<26>       |    9.813|
+num<6>         |comp<6>        |    8.281|
+num<6>         |comp<7>        |    7.931|
+num<6>         |comp<8>        |    8.308|
+num<6>         |comp<9>        |    8.226|
+num<6>         |comp<10>       |    8.406|
+num<6>         |comp<11>       |    8.544|
+num<6>         |comp<12>       |    8.518|
+num<6>         |comp<13>       |    8.871|
+num<6>         |comp<14>       |    8.706|
+num<6>         |comp<15>       |    9.010|
+num<6>         |comp<16>       |    9.056|
+num<6>         |comp<17>       |    9.064|
+num<6>         |comp<18>       |    9.358|
+num<6>         |comp<19>       |    9.138|
+num<6>         |comp<20>       |    9.371|
+num<6>         |comp<21>       |    9.518|
+num<6>         |comp<22>       |    9.572|
+num<6>         |comp<23>       |    9.527|
+num<6>         |comp<24>       |    9.475|
+num<6>         |comp<25>       |    9.577|
+num<6>         |comp<26>       |    9.764|
+num<7>         |comp<7>        |    7.648|
+num<7>         |comp<8>        |    8.027|
+num<7>         |comp<9>        |    7.945|
+num<7>         |comp<10>       |    8.125|
+num<7>         |comp<11>       |    8.263|
+num<7>         |comp<12>       |    8.237|
+num<7>         |comp<13>       |    8.590|
+num<7>         |comp<14>       |    8.425|
+num<7>         |comp<15>       |    8.729|
+num<7>         |comp<16>       |    8.775|
+num<7>         |comp<17>       |    8.783|
+num<7>         |comp<18>       |    9.077|
+num<7>         |comp<19>       |    8.857|
+num<7>         |comp<20>       |    9.090|
+num<7>         |comp<21>       |    9.237|
+num<7>         |comp<22>       |    9.291|
+num<7>         |comp<23>       |    9.246|
+num<7>         |comp<24>       |    9.194|
+num<7>         |comp<25>       |    9.296|
+num<7>         |comp<26>       |    9.483|
+num<8>         |comp<8>        |    7.889|
+num<8>         |comp<9>        |    7.779|
+num<8>         |comp<10>       |    8.048|
+num<8>         |comp<11>       |    8.203|
+num<8>         |comp<12>       |    8.218|
+num<8>         |comp<13>       |    8.571|
+num<8>         |comp<14>       |    8.406|
+num<8>         |comp<15>       |    8.710|
+num<8>         |comp<16>       |    8.756|
+num<8>         |comp<17>       |    8.764|
+num<8>         |comp<18>       |    9.058|
+num<8>         |comp<19>       |    8.838|
+num<8>         |comp<20>       |    9.071|
+num<8>         |comp<21>       |    9.218|
+num<8>         |comp<22>       |    9.272|
+num<8>         |comp<23>       |    9.227|
+num<8>         |comp<24>       |    9.175|
+num<8>         |comp<25>       |    9.277|
+num<8>         |comp<26>       |    9.464|
+num<9>         |comp<9>        |    7.775|
+num<9>         |comp<10>       |    8.089|
+num<9>         |comp<11>       |    8.250|
+num<9>         |comp<12>       |    8.258|
+num<9>         |comp<13>       |    8.611|
+num<9>         |comp<14>       |    8.446|
+num<9>         |comp<15>       |    8.750|
+num<9>         |comp<16>       |    8.796|
+num<9>         |comp<17>       |    8.804|
+num<9>         |comp<18>       |    9.098|
+num<9>         |comp<19>       |    8.878|
+num<9>         |comp<20>       |    9.111|
+num<9>         |comp<21>       |    9.258|
+num<9>         |comp<22>       |    9.312|
+num<9>         |comp<23>       |    9.267|
+num<9>         |comp<24>       |    9.215|
+num<9>         |comp<25>       |    9.317|
+num<9>         |comp<26>       |    9.504|
+num<10>        |comp<10>       |    8.373|
+num<10>        |comp<11>       |    8.530|
+num<10>        |comp<12>       |    8.584|
+num<10>        |comp<13>       |    8.937|
+num<10>        |comp<14>       |    8.772|
+num<10>        |comp<15>       |    9.076|
+num<10>        |comp<16>       |    9.122|
+num<10>        |comp<17>       |    9.130|
+num<10>        |comp<18>       |    9.424|
+num<10>        |comp<19>       |    9.204|
+num<10>        |comp<20>       |    9.437|
+num<10>        |comp<21>       |    9.584|
+num<10>        |comp<22>       |    9.638|
+num<10>        |comp<23>       |    9.593|
+num<10>        |comp<24>       |    9.541|
+num<10>        |comp<25>       |    9.643|
+num<10>        |comp<26>       |    9.830|
+num<11>        |comp<11>       |    8.063|
+num<11>        |comp<12>       |    8.119|
+num<11>        |comp<13>       |    8.472|
+num<11>        |comp<14>       |    8.307|
+num<11>        |comp<15>       |    8.611|
+num<11>        |comp<16>       |    8.657|
+num<11>        |comp<17>       |    8.665|
+num<11>        |comp<18>       |    8.959|
+num<11>        |comp<19>       |    8.739|
+num<11>        |comp<20>       |    8.972|
+num<11>        |comp<21>       |    9.119|
+num<11>        |comp<22>       |    9.173|
+num<11>        |comp<23>       |    9.128|
+num<11>        |comp<24>       |    9.076|
+num<11>        |comp<25>       |    9.178|
+num<11>        |comp<26>       |    9.365|
+num<12>        |comp<12>       |    8.181|
+num<12>        |comp<13>       |    8.506|
+num<12>        |comp<14>       |    8.430|
+num<12>        |comp<15>       |    8.751|
+num<12>        |comp<16>       |    8.838|
+num<12>        |comp<17>       |    8.846|
+num<12>        |comp<18>       |    9.140|
+num<12>        |comp<19>       |    8.920|
+num<12>        |comp<20>       |    9.153|
+num<12>        |comp<21>       |    9.300|
+num<12>        |comp<22>       |    9.354|
+num<12>        |comp<23>       |    9.309|
+num<12>        |comp<24>       |    9.257|
+num<12>        |comp<25>       |    9.359|
+num<12>        |comp<26>       |    9.546|
+num<13>        |comp<13>       |    8.806|
+num<13>        |comp<14>       |    8.775|
+num<13>        |comp<15>       |    9.102|
+num<13>        |comp<16>       |    9.182|
+num<13>        |comp<17>       |    9.190|
+num<13>        |comp<18>       |    9.484|
+num<13>        |comp<19>       |    9.264|
+num<13>        |comp<20>       |    9.497|
+num<13>        |comp<21>       |    9.644|
+num<13>        |comp<22>       |    9.698|
+num<13>        |comp<23>       |    9.653|
+num<13>        |comp<24>       |    9.601|
+num<13>        |comp<25>       |    9.703|
+num<13>        |comp<26>       |    9.890|
+num<14>        |comp<14>       |    8.209|
+num<14>        |comp<15>       |    8.532|
+num<14>        |comp<16>       |    8.658|
+num<14>        |comp<17>       |    8.666|
+num<14>        |comp<18>       |    8.960|
+num<14>        |comp<19>       |    8.740|
+num<14>        |comp<20>       |    8.973|
+num<14>        |comp<21>       |    9.120|
+num<14>        |comp<22>       |    9.174|
+num<14>        |comp<23>       |    9.129|
+num<14>        |comp<24>       |    9.077|
+num<14>        |comp<25>       |    9.179|
+num<14>        |comp<26>       |    9.366|
+num<15>        |comp<15>       |    8.429|
+num<15>        |comp<16>       |    8.557|
+num<15>        |comp<17>       |    8.565|
+num<15>        |comp<18>       |    8.859|
+num<15>        |comp<19>       |    8.639|
+num<15>        |comp<20>       |    8.872|
+num<15>        |comp<21>       |    9.019|
+num<15>        |comp<22>       |    9.073|
+num<15>        |comp<23>       |    9.028|
+num<15>        |comp<24>       |    8.976|
+num<15>        |comp<25>       |    9.078|
+num<15>        |comp<26>       |    9.265|
+num<16>        |comp<16>       |    8.722|
+num<16>        |comp<17>       |    8.702|
+num<16>        |comp<18>       |    9.085|
+num<16>        |comp<19>       |    8.882|
+num<16>        |comp<20>       |    9.156|
+num<16>        |comp<21>       |    9.303|
+num<16>        |comp<22>       |    9.357|
+num<16>        |comp<23>       |    9.312|
+num<16>        |comp<24>       |    9.260|
+num<16>        |comp<25>       |    9.362|
+num<16>        |comp<26>       |    9.549|
+num<17>        |comp<17>       |    8.879|
+num<17>        |comp<18>       |    9.307|
+num<17>        |comp<19>       |    9.110|
+num<17>        |comp<20>       |    9.377|
+num<17>        |comp<21>       |    9.524|
+num<17>        |comp<22>       |    9.578|
+num<17>        |comp<23>       |    9.533|
+num<17>        |comp<24>       |    9.481|
+num<17>        |comp<25>       |    9.583|
+num<17>        |comp<26>       |    9.770|
+num<18>        |comp<18>       |    9.091|
+num<18>        |comp<19>       |    8.890|
+num<18>        |comp<20>       |    9.203|
+num<18>        |comp<21>       |    9.350|
+num<18>        |comp<22>       |    9.404|
+num<18>        |comp<23>       |    9.359|
+num<18>        |comp<24>       |    9.307|
+num<18>        |comp<25>       |    9.409|
+num<18>        |comp<26>       |    9.596|
+num<19>        |comp<19>       |    8.530|
+num<19>        |comp<20>       |    8.845|
+num<19>        |comp<21>       |    8.992|
+num<19>        |comp<22>       |    9.046|
+num<19>        |comp<23>       |    9.001|
+num<19>        |comp<24>       |    8.949|
+num<19>        |comp<25>       |    9.051|
+num<19>        |comp<26>       |    9.238|
+num<20>        |comp<20>       |    8.763|
+num<20>        |comp<21>       |    8.882|
+num<20>        |comp<22>       |    9.025|
+num<20>        |comp<23>       |    8.997|
+num<20>        |comp<24>       |    8.986|
+num<20>        |comp<25>       |    9.088|
+num<20>        |comp<26>       |    9.275|
+num<21>        |comp<21>       |    9.325|
+num<21>        |comp<22>       |    9.513|
+num<21>        |comp<23>       |    9.491|
+num<21>        |comp<24>       |    9.473|
+num<21>        |comp<25>       |    9.575|
+num<21>        |comp<26>       |    9.762|
+num<22>        |comp<22>       |    8.832|
+num<22>        |comp<23>       |    8.806|
+num<22>        |comp<24>       |    8.834|
+num<22>        |comp<25>       |    8.936|
+num<22>        |comp<26>       |    9.123|
+num<23>        |comp<23>       |    8.977|
+num<23>        |comp<24>       |    9.007|
+num<23>        |comp<25>       |    9.109|
+num<23>        |comp<26>       |    9.296|
+num<24>        |comp<24>       |    8.888|
+num<24>        |comp<25>       |    8.962|
+num<24>        |comp<26>       |    9.238|
+num<25>        |comp<25>       |    9.290|
+num<25>        |comp<26>       |    9.611|
+num<26>        |comp<26>       |    9.589|
+sign           |comp<0>        |    7.694|
+sign           |comp<1>        |    8.520|
+sign           |comp<2>        |    7.505|
+sign           |comp<3>        |    7.362|
+sign           |comp<4>        |    7.509|
+sign           |comp<5>        |    7.490|
+sign           |comp<6>        |    7.280|
+sign           |comp<7>        |    7.281|
+sign           |comp<8>        |    7.793|
+sign           |comp<9>        |    7.714|
+sign           |comp<10>       |    7.698|
+sign           |comp<11>       |    7.955|
+sign           |comp<12>       |    8.070|
+sign           |comp<13>       |    8.428|
+sign           |comp<14>       |    8.499|
+sign           |comp<15>       |    8.802|
+sign           |comp<16>       |    8.937|
+sign           |comp<17>       |    9.106|
+sign           |comp<18>       |    9.486|
+sign           |comp<19>       |    9.338|
+sign           |comp<20>       |    9.155|
+sign           |comp<21>       |    9.048|
+sign           |comp<22>       |    9.338|
+sign           |comp<23>       |    9.495|
+sign           |comp<24>       |    9.534|
+sign           |comp<25>       |    9.475|
+sign           |comp<26>       |    9.433|
+sign           |comp<27>       |    9.111|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Nov 25 04:53:02 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 219 MB
+
+
+

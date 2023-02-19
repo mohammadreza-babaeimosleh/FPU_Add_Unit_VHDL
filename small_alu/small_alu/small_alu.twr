@@ -1,0 +1,195 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml small_alu.twx small_alu.ncd -o small_alu.twr small_alu.pcf
+
+Design file:              small_alu.ncd
+Physical constraint file: small_alu.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+exp1<0>        |borrow         |    8.076|
+exp1<0>        |difference<0>  |    8.941|
+exp1<0>        |difference<1>  |    9.116|
+exp1<0>        |difference<2>  |    9.853|
+exp1<0>        |difference<3>  |   10.317|
+exp1<0>        |difference<4>  |   11.144|
+exp1<0>        |difference<5>  |   10.718|
+exp1<0>        |difference<6>  |   11.299|
+exp1<0>        |difference<7>  |   11.157|
+exp1<1>        |borrow         |    8.261|
+exp1<1>        |difference<0>  |    9.126|
+exp1<1>        |difference<1>  |    9.301|
+exp1<1>        |difference<2>  |   10.038|
+exp1<1>        |difference<3>  |   10.502|
+exp1<1>        |difference<4>  |   11.329|
+exp1<1>        |difference<5>  |   10.903|
+exp1<1>        |difference<6>  |   11.484|
+exp1<1>        |difference<7>  |   11.342|
+exp1<2>        |borrow         |    8.167|
+exp1<2>        |difference<0>  |    9.032|
+exp1<2>        |difference<1>  |    9.207|
+exp1<2>        |difference<2>  |    9.944|
+exp1<2>        |difference<3>  |   10.408|
+exp1<2>        |difference<4>  |   11.235|
+exp1<2>        |difference<5>  |   10.809|
+exp1<2>        |difference<6>  |   11.390|
+exp1<2>        |difference<7>  |   11.248|
+exp1<3>        |borrow         |    7.413|
+exp1<3>        |difference<0>  |    8.278|
+exp1<3>        |difference<1>  |    8.453|
+exp1<3>        |difference<2>  |    9.190|
+exp1<3>        |difference<3>  |    9.654|
+exp1<3>        |difference<4>  |   10.481|
+exp1<3>        |difference<5>  |   10.055|
+exp1<3>        |difference<6>  |   10.636|
+exp1<3>        |difference<7>  |   10.494|
+exp1<4>        |borrow         |    6.800|
+exp1<4>        |difference<0>  |    7.665|
+exp1<4>        |difference<1>  |    7.840|
+exp1<4>        |difference<2>  |    8.577|
+exp1<4>        |difference<3>  |    9.041|
+exp1<4>        |difference<4>  |    9.868|
+exp1<4>        |difference<5>  |    9.442|
+exp1<4>        |difference<6>  |   10.023|
+exp1<4>        |difference<7>  |    9.881|
+exp1<5>        |borrow         |    7.655|
+exp1<5>        |difference<0>  |    8.520|
+exp1<5>        |difference<1>  |    8.695|
+exp1<5>        |difference<2>  |    9.432|
+exp1<5>        |difference<3>  |    9.896|
+exp1<5>        |difference<4>  |   10.723|
+exp1<5>        |difference<5>  |   10.297|
+exp1<5>        |difference<6>  |   10.878|
+exp1<5>        |difference<7>  |   10.736|
+exp1<6>        |borrow         |    6.279|
+exp1<6>        |difference<0>  |    7.144|
+exp1<6>        |difference<1>  |    7.319|
+exp1<6>        |difference<2>  |    8.056|
+exp1<6>        |difference<3>  |    8.520|
+exp1<6>        |difference<4>  |    9.347|
+exp1<6>        |difference<5>  |    8.921|
+exp1<6>        |difference<6>  |    9.502|
+exp1<6>        |difference<7>  |    9.360|
+exp1<7>        |borrow         |    6.209|
+exp1<7>        |difference<0>  |    7.074|
+exp1<7>        |difference<1>  |    7.249|
+exp1<7>        |difference<2>  |    7.986|
+exp1<7>        |difference<3>  |    8.450|
+exp1<7>        |difference<4>  |    9.277|
+exp1<7>        |difference<5>  |    8.851|
+exp1<7>        |difference<6>  |    9.432|
+exp1<7>        |difference<7>  |    9.290|
+exp2<0>        |borrow         |    8.113|
+exp2<0>        |difference<0>  |    8.978|
+exp2<0>        |difference<1>  |    9.153|
+exp2<0>        |difference<2>  |    9.890|
+exp2<0>        |difference<3>  |   10.354|
+exp2<0>        |difference<4>  |   11.181|
+exp2<0>        |difference<5>  |   10.755|
+exp2<0>        |difference<6>  |   11.336|
+exp2<0>        |difference<7>  |   11.194|
+exp2<1>        |borrow         |    8.335|
+exp2<1>        |difference<0>  |    9.200|
+exp2<1>        |difference<1>  |    9.375|
+exp2<1>        |difference<2>  |   10.112|
+exp2<1>        |difference<3>  |   10.576|
+exp2<1>        |difference<4>  |   11.403|
+exp2<1>        |difference<5>  |   10.977|
+exp2<1>        |difference<6>  |   11.558|
+exp2<1>        |difference<7>  |   11.416|
+exp2<2>        |borrow         |    8.018|
+exp2<2>        |difference<0>  |    8.883|
+exp2<2>        |difference<1>  |    9.058|
+exp2<2>        |difference<2>  |    9.795|
+exp2<2>        |difference<3>  |   10.259|
+exp2<2>        |difference<4>  |   11.086|
+exp2<2>        |difference<5>  |   10.660|
+exp2<2>        |difference<6>  |   11.241|
+exp2<2>        |difference<7>  |   11.099|
+exp2<3>        |borrow         |    7.456|
+exp2<3>        |difference<0>  |    8.321|
+exp2<3>        |difference<1>  |    8.496|
+exp2<3>        |difference<2>  |    9.233|
+exp2<3>        |difference<3>  |    9.697|
+exp2<3>        |difference<4>  |   10.524|
+exp2<3>        |difference<5>  |   10.098|
+exp2<3>        |difference<6>  |   10.679|
+exp2<3>        |difference<7>  |   10.537|
+exp2<4>        |borrow         |    7.783|
+exp2<4>        |difference<0>  |    8.648|
+exp2<4>        |difference<1>  |    8.823|
+exp2<4>        |difference<2>  |    9.560|
+exp2<4>        |difference<3>  |   10.024|
+exp2<4>        |difference<4>  |   10.851|
+exp2<4>        |difference<5>  |   10.425|
+exp2<4>        |difference<6>  |   11.006|
+exp2<4>        |difference<7>  |   10.864|
+exp2<5>        |borrow         |    7.521|
+exp2<5>        |difference<0>  |    8.386|
+exp2<5>        |difference<1>  |    8.561|
+exp2<5>        |difference<2>  |    9.298|
+exp2<5>        |difference<3>  |    9.762|
+exp2<5>        |difference<4>  |   10.589|
+exp2<5>        |difference<5>  |   10.163|
+exp2<5>        |difference<6>  |   10.744|
+exp2<5>        |difference<7>  |   10.602|
+exp2<6>        |borrow         |    6.938|
+exp2<6>        |difference<0>  |    7.803|
+exp2<6>        |difference<1>  |    7.978|
+exp2<6>        |difference<2>  |    8.715|
+exp2<6>        |difference<3>  |    9.179|
+exp2<6>        |difference<4>  |   10.006|
+exp2<6>        |difference<5>  |    9.580|
+exp2<6>        |difference<6>  |   10.161|
+exp2<6>        |difference<7>  |   10.019|
+exp2<7>        |borrow         |    7.438|
+exp2<7>        |difference<0>  |    8.303|
+exp2<7>        |difference<1>  |    8.478|
+exp2<7>        |difference<2>  |    9.215|
+exp2<7>        |difference<3>  |    9.679|
+exp2<7>        |difference<4>  |   10.506|
+exp2<7>        |difference<5>  |   10.080|
+exp2<7>        |difference<6>  |   10.661|
+exp2<7>        |difference<7>  |   10.519|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Nov 25 03:51:06 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 219 MB
+
+
+

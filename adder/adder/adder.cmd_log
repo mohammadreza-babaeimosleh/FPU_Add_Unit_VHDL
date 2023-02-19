@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/adder/adder/adder.xst" -ofn "C:/Users/ayroz/Desktop/four/adder/adder/adder.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/adder/adder/adder.xst" -ofn "C:/Users/ayroz/Desktop/four/adder/adder/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 adder.ngc adder.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder_map.ncd adder.ngd adder.pcf 
+par -w -intstyle ise -ol high -mt off adder_map.ncd adder.ncd adder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adder.twx adder.ncd -o adder.twr adder.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/adder/adder/adder.xst" -ofn "C:/Users/ayroz/Desktop/four/adder/adder/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 adder.ngc adder.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder_map.ncd adder.ngd adder.pcf 
+par -w -intstyle ise -ol high -mt off adder_map.ncd adder.ncd adder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adder.twx adder.ncd -o adder.twr adder.pcf 

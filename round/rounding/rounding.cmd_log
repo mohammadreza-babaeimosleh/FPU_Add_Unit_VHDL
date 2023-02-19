@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.xst" -ofn "C:/Users/ayroz/Desktop/four/round/rounding/rounding.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 rounding.ngc rounding.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rounding_map.ncd rounding.ngd rounding.pcf 
+par -w -intstyle ise -ol high -mt off rounding_map.ncd rounding.ncd rounding.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml rounding.twx rounding.ncd -o rounding.twr rounding.pcf 

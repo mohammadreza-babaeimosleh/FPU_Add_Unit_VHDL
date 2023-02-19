@@ -1,0 +1,2 @@
+vhdl isim_temp "rounding.vhd"
+vhdl isim_temp "teset.vhd"

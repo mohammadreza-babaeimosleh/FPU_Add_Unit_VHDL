@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/tb5_isim_beh.exe -prj C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/tb5_beh.prj work.tb5 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.vhd" into library work
+Parsing VHDL file "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/tb5.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity shift_right_ex3 [shift_right_ex3_default]
+Compiling architecture behavior of entity tb5
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/tb5_isim_beh.exe
+Fuse Memory Usage: 36396 KB
+Fuse CPU Usage: 436 ms

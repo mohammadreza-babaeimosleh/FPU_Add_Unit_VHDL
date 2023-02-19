@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/onlinelessons/computer architecture/VHDL/project_FPA/four/four/shift_right/shift_right/sipo.xst" -ofn "G:/onlinelessons/computer architecture/VHDL/project_FPA/four/four/shift_right/shift_right/sipo.syr" 

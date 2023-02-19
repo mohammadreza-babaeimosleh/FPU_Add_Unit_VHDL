@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/ayroz/Desktop/four/round/rounding/teset_isim_beh.exe" -prj "C:/Users/ayroz/Desktop/four/round/rounding/teset_beh.prj" "work.teset" 

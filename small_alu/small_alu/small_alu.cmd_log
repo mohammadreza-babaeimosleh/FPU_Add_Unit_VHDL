@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.xst" -ofn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 small_alu.ngc small_alu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o small_alu_map.ncd small_alu.ngd small_alu.pcf 
+par -w -intstyle ise -ol high -mt off small_alu_map.ncd small_alu.ncd small_alu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml small_alu.twx small_alu.ncd -o small_alu.twr small_alu.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.xst" -ofn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.xst" -ofn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.xst" -ofn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.xst" -ofn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.xst" -ofn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.xst" -ofn "C:/Users/ayroz/Desktop/four/small_alu/small_alu/small_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 small_alu.ngc small_alu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o small_alu_map.ncd small_alu.ngd small_alu.pcf 
+par -w -intstyle ise -ol high -mt off small_alu_map.ncd small_alu.ncd small_alu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml small_alu.twx small_alu.ncd -o small_alu.twr small_alu.pcf 

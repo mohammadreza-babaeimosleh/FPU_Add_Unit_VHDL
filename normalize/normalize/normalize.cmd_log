@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 normalize.ngc normalize.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o normalize_map.ncd normalize.ngd normalize.pcf 
+par -w -intstyle ise -ol high -mt off normalize_map.ncd normalize.ncd normalize.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml normalize.twx normalize.ncd -o normalize.twr normalize.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 normalize.ngc normalize.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o normalize_map.ncd normalize.ngd normalize.pcf 
+par -w -intstyle ise -ol high -mt off normalize_map.ncd normalize.ncd normalize.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml normalize.twx normalize.ncd -o normalize.twr normalize.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 normalize.ngc normalize.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o normalize_map.ncd normalize.ngd normalize.pcf 
+par -w -intstyle ise -ol high -mt off normalize_map.ncd normalize.ncd normalize.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml normalize.twx normalize.ncd -o normalize.twr normalize.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 normalize.ngc normalize.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o normalize_map.ncd normalize.ngd normalize.pcf 
+par -w -intstyle ise -ol high -mt off normalize_map.ncd normalize.ncd normalize.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml normalize.twx normalize.ncd -o normalize.twr normalize.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 normalize.ngc normalize.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o normalize_map.ncd normalize.ngd normalize.pcf 
+par -w -intstyle ise -ol high -mt off normalize_map.ncd normalize.ncd normalize.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml normalize.twx normalize.ncd -o normalize.twr normalize.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.xst" -ofn "C:/Users/ayroz/Desktop/four/normalize/normalize/normalize.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 normalize.ngc normalize.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o normalize_map.ncd normalize.ngd normalize.pcf 
+par -w -intstyle ise -ol high -mt off normalize_map.ncd normalize.ncd normalize.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml normalize.twx normalize.ncd -o normalize.twr normalize.pcf 

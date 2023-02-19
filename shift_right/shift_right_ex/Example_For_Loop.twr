@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Example_For_Loop.twx Example_For_Loop.ncd -o
+Example_For_Loop.twr Example_For_Loop.pcf
+
+Design file:              Example_For_Loop.ncd
+Physical constraint file: Example_For_Loop.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock i_Clock to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+output1<1>  |         6.231(R)|      SLOW  |         2.855(R)|      FAST  |i_Clock_BUFGP     |   0.000|
+output1<2>  |         6.756(R)|      SLOW  |         3.470(R)|      FAST  |i_Clock_BUFGP     |   0.000|
+output1<3>  |         6.750(R)|      SLOW  |         3.464(R)|      FAST  |i_Clock_BUFGP     |   0.000|
+output2<1>  |         6.236(R)|      SLOW  |         2.860(R)|      FAST  |i_Clock_BUFGP     |   0.000|
+output2<2>  |         6.738(R)|      SLOW  |         3.493(R)|      FAST  |i_Clock_BUFGP     |   0.000|
+output2<3>  |         6.732(R)|      SLOW  |         3.487(R)|      FAST  |i_Clock_BUFGP     |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock i_Clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+i_Clock        |    1.080|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Nov 25 21:47:29 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 218 MB
+
+
+

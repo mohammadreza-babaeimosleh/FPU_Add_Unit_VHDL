@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml shift_right_ex3.twx shift_right_ex3.ncd -o
+shift_right_ex3.twr shift_right_ex3.pcf
+
+Design file:              shift_right_ex3.ncd
+Physical constraint file: shift_right_ex3.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+str<0>         |output<8>      |    5.437|
+str<1>         |output<9>      |    5.364|
+str<2>         |output<10>     |    5.867|
+str<3>         |output<11>     |    5.684|
+str<4>         |output<12>     |    5.437|
+str<5>         |output<13>     |    5.364|
+str<6>         |output<14>     |    5.934|
+str<7>         |output<15>     |    5.660|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Nov 26 01:18:30 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 218 MB
+
+
+

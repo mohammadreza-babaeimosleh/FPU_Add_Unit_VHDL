@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex2/shift_right_ex2.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex2/shift_right_ex2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shift_right_ex2.ngc shift_right_ex2.ngd  
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex2/shift_right_ex2.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex2/shift_right_ex2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shift_right_ex2.ngc shift_right_ex2.ngd  
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex2/shift_right_ex2.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex2/shift_right_ex2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shift_right_ex2.ngc shift_right_ex2.ngd  

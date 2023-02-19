@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1369" delta="old" >"C:\Users\ayroz\Desktop\four\shift_right\shift_right_ex2\shift_right_ex2.vhd" Line 18: Possible infinite loop; process does not have a wait statement
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\ayroz\Desktop\four\shift_right\shift_right_ex2\shift_right_ex2.vhd" Line 9: Using initial value <arg fmt="%s" index="1">&quot;1000&quot;</arg> for <arg fmt="%s" index="2">r_shift1</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ayroz\Desktop\four\shift_right\shift_right_ex2\shift_right_ex2.vhd" Line 18: Assignment to <arg fmt="%s" index="1">r_unsigned_l</arg> ignored, since the identifier is never used
+</msg>
+
+</messages>
+

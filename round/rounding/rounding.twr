@@ -1,0 +1,451 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml rounding.twx rounding.ncd -o rounding.twr rounding.pcf
+
+Design file:              rounding.ncd
+Physical constraint file: rounding.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+frac_in<0>     |frac_out<0>    |    9.354|
+frac_in<0>     |frac_out<1>    |    9.510|
+frac_in<0>     |frac_out<2>    |    9.564|
+frac_in<0>     |frac_out<3>    |    9.410|
+frac_in<0>     |frac_out<4>    |    9.735|
+frac_in<0>     |frac_out<5>    |    9.190|
+frac_in<0>     |frac_out<6>    |    9.129|
+frac_in<0>     |frac_out<7>    |    9.398|
+frac_in<0>     |frac_out<8>    |    9.767|
+frac_in<0>     |frac_out<9>    |    9.762|
+frac_in<0>     |frac_out<10>   |    9.809|
+frac_in<0>     |frac_out<11>   |    9.752|
+frac_in<0>     |frac_out<12>   |    9.696|
+frac_in<0>     |frac_out<13>   |    9.678|
+frac_in<0>     |frac_out<14>   |    9.669|
+frac_in<0>     |frac_out<15>   |    9.387|
+frac_in<0>     |frac_out<16>   |    9.735|
+frac_in<0>     |frac_out<17>   |    9.332|
+frac_in<0>     |frac_out<18>   |    9.676|
+frac_in<0>     |frac_out<19>   |    9.413|
+frac_in<0>     |frac_out<20>   |    9.335|
+frac_in<0>     |frac_out<21>   |    9.665|
+frac_in<0>     |frac_out<22>   |    9.024|
+frac_in<0>     |frac_out<23>   |    9.206|
+frac_in<0>     |frac_out<24>   |    9.593|
+frac_in<1>     |frac_out<0>    |    9.312|
+frac_in<1>     |frac_out<1>    |    9.464|
+frac_in<1>     |frac_out<2>    |    9.518|
+frac_in<1>     |frac_out<3>    |    9.364|
+frac_in<1>     |frac_out<4>    |    9.689|
+frac_in<1>     |frac_out<5>    |    9.144|
+frac_in<1>     |frac_out<6>    |    9.083|
+frac_in<1>     |frac_out<7>    |    9.352|
+frac_in<1>     |frac_out<8>    |    9.721|
+frac_in<1>     |frac_out<9>    |    9.716|
+frac_in<1>     |frac_out<10>   |    9.763|
+frac_in<1>     |frac_out<11>   |    9.706|
+frac_in<1>     |frac_out<12>   |    9.650|
+frac_in<1>     |frac_out<13>   |    9.632|
+frac_in<1>     |frac_out<14>   |    9.623|
+frac_in<1>     |frac_out<15>   |    9.341|
+frac_in<1>     |frac_out<16>   |    9.689|
+frac_in<1>     |frac_out<17>   |    9.286|
+frac_in<1>     |frac_out<18>   |    9.630|
+frac_in<1>     |frac_out<19>   |    9.367|
+frac_in<1>     |frac_out<20>   |    9.289|
+frac_in<1>     |frac_out<21>   |    9.619|
+frac_in<1>     |frac_out<22>   |    8.978|
+frac_in<1>     |frac_out<23>   |    9.160|
+frac_in<1>     |frac_out<24>   |    9.547|
+frac_in<2>     |frac_out<0>    |    8.772|
+frac_in<2>     |frac_out<1>    |    8.957|
+frac_in<2>     |frac_out<2>    |    9.011|
+frac_in<2>     |frac_out<3>    |    8.857|
+frac_in<2>     |frac_out<4>    |    9.182|
+frac_in<2>     |frac_out<5>    |    8.637|
+frac_in<2>     |frac_out<6>    |    8.576|
+frac_in<2>     |frac_out<7>    |    8.845|
+frac_in<2>     |frac_out<8>    |    9.214|
+frac_in<2>     |frac_out<9>    |    9.209|
+frac_in<2>     |frac_out<10>   |    9.256|
+frac_in<2>     |frac_out<11>   |    9.199|
+frac_in<2>     |frac_out<12>   |    9.143|
+frac_in<2>     |frac_out<13>   |    9.125|
+frac_in<2>     |frac_out<14>   |    9.116|
+frac_in<2>     |frac_out<15>   |    8.834|
+frac_in<2>     |frac_out<16>   |    9.182|
+frac_in<2>     |frac_out<17>   |    8.779|
+frac_in<2>     |frac_out<18>   |    9.123|
+frac_in<2>     |frac_out<19>   |    8.860|
+frac_in<2>     |frac_out<20>   |    8.782|
+frac_in<2>     |frac_out<21>   |    9.112|
+frac_in<2>     |frac_out<22>   |    8.471|
+frac_in<2>     |frac_out<23>   |    8.653|
+frac_in<2>     |frac_out<24>   |    9.040|
+frac_in<3>     |frac_out<0>    |    8.857|
+frac_in<3>     |frac_out<1>    |    9.068|
+frac_in<3>     |frac_out<2>    |    9.122|
+frac_in<3>     |frac_out<3>    |    8.968|
+frac_in<3>     |frac_out<4>    |    9.293|
+frac_in<3>     |frac_out<5>    |    8.748|
+frac_in<3>     |frac_out<6>    |    8.687|
+frac_in<3>     |frac_out<7>    |    8.956|
+frac_in<3>     |frac_out<8>    |    9.325|
+frac_in<3>     |frac_out<9>    |    9.320|
+frac_in<3>     |frac_out<10>   |    9.367|
+frac_in<3>     |frac_out<11>   |    9.310|
+frac_in<3>     |frac_out<12>   |    9.254|
+frac_in<3>     |frac_out<13>   |    9.236|
+frac_in<3>     |frac_out<14>   |    9.227|
+frac_in<3>     |frac_out<15>   |    8.945|
+frac_in<3>     |frac_out<16>   |    9.293|
+frac_in<3>     |frac_out<17>   |    8.890|
+frac_in<3>     |frac_out<18>   |    9.234|
+frac_in<3>     |frac_out<19>   |    8.971|
+frac_in<3>     |frac_out<20>   |    8.893|
+frac_in<3>     |frac_out<21>   |    9.223|
+frac_in<3>     |frac_out<22>   |    8.582|
+frac_in<3>     |frac_out<23>   |    8.764|
+frac_in<3>     |frac_out<24>   |    9.151|
+frac_in<4>     |frac_out<1>    |    9.279|
+frac_in<4>     |frac_out<2>    |    9.312|
+frac_in<4>     |frac_out<3>    |    9.287|
+frac_in<4>     |frac_out<4>    |    9.600|
+frac_in<4>     |frac_out<5>    |    9.094|
+frac_in<4>     |frac_out<6>    |    9.033|
+frac_in<4>     |frac_out<7>    |    9.302|
+frac_in<4>     |frac_out<8>    |    9.671|
+frac_in<4>     |frac_out<9>    |    9.666|
+frac_in<4>     |frac_out<10>   |    9.713|
+frac_in<4>     |frac_out<11>   |    9.656|
+frac_in<4>     |frac_out<12>   |    9.600|
+frac_in<4>     |frac_out<13>   |    9.582|
+frac_in<4>     |frac_out<14>   |    9.573|
+frac_in<4>     |frac_out<15>   |    9.291|
+frac_in<4>     |frac_out<16>   |    9.639|
+frac_in<4>     |frac_out<17>   |    9.236|
+frac_in<4>     |frac_out<18>   |    9.580|
+frac_in<4>     |frac_out<19>   |    9.317|
+frac_in<4>     |frac_out<20>   |    9.239|
+frac_in<4>     |frac_out<21>   |    9.569|
+frac_in<4>     |frac_out<22>   |    8.928|
+frac_in<4>     |frac_out<23>   |    9.110|
+frac_in<4>     |frac_out<24>   |    9.497|
+frac_in<5>     |frac_out<2>    |    8.747|
+frac_in<5>     |frac_out<3>    |    8.774|
+frac_in<5>     |frac_out<4>    |    9.103|
+frac_in<5>     |frac_out<5>    |    8.593|
+frac_in<5>     |frac_out<6>    |    8.532|
+frac_in<5>     |frac_out<7>    |    8.801|
+frac_in<5>     |frac_out<8>    |    9.170|
+frac_in<5>     |frac_out<9>    |    9.165|
+frac_in<5>     |frac_out<10>   |    9.212|
+frac_in<5>     |frac_out<11>   |    9.155|
+frac_in<5>     |frac_out<12>   |    9.099|
+frac_in<5>     |frac_out<13>   |    9.081|
+frac_in<5>     |frac_out<14>   |    9.072|
+frac_in<5>     |frac_out<15>   |    8.790|
+frac_in<5>     |frac_out<16>   |    9.138|
+frac_in<5>     |frac_out<17>   |    8.735|
+frac_in<5>     |frac_out<18>   |    9.079|
+frac_in<5>     |frac_out<19>   |    8.816|
+frac_in<5>     |frac_out<20>   |    8.738|
+frac_in<5>     |frac_out<21>   |    9.068|
+frac_in<5>     |frac_out<22>   |    8.427|
+frac_in<5>     |frac_out<23>   |    8.609|
+frac_in<5>     |frac_out<24>   |    8.996|
+frac_in<6>     |frac_out<3>    |    8.497|
+frac_in<6>     |frac_out<4>    |    8.803|
+frac_in<6>     |frac_out<5>    |    8.326|
+frac_in<6>     |frac_out<6>    |    8.265|
+frac_in<6>     |frac_out<7>    |    8.534|
+frac_in<6>     |frac_out<8>    |    8.903|
+frac_in<6>     |frac_out<9>    |    8.898|
+frac_in<6>     |frac_out<10>   |    8.945|
+frac_in<6>     |frac_out<11>   |    8.888|
+frac_in<6>     |frac_out<12>   |    8.832|
+frac_in<6>     |frac_out<13>   |    8.814|
+frac_in<6>     |frac_out<14>   |    8.805|
+frac_in<6>     |frac_out<15>   |    8.523|
+frac_in<6>     |frac_out<16>   |    8.871|
+frac_in<6>     |frac_out<17>   |    8.468|
+frac_in<6>     |frac_out<18>   |    8.812|
+frac_in<6>     |frac_out<19>   |    8.549|
+frac_in<6>     |frac_out<20>   |    8.471|
+frac_in<6>     |frac_out<21>   |    8.801|
+frac_in<6>     |frac_out<22>   |    8.160|
+frac_in<6>     |frac_out<23>   |    8.342|
+frac_in<6>     |frac_out<24>   |    8.729|
+frac_in<7>     |frac_out<4>    |    8.698|
+frac_in<7>     |frac_out<5>    |    8.247|
+frac_in<7>     |frac_out<6>    |    8.186|
+frac_in<7>     |frac_out<7>    |    8.455|
+frac_in<7>     |frac_out<8>    |    8.824|
+frac_in<7>     |frac_out<9>    |    8.819|
+frac_in<7>     |frac_out<10>   |    8.866|
+frac_in<7>     |frac_out<11>   |    8.809|
+frac_in<7>     |frac_out<12>   |    8.753|
+frac_in<7>     |frac_out<13>   |    8.735|
+frac_in<7>     |frac_out<14>   |    8.726|
+frac_in<7>     |frac_out<15>   |    8.444|
+frac_in<7>     |frac_out<16>   |    8.792|
+frac_in<7>     |frac_out<17>   |    8.389|
+frac_in<7>     |frac_out<18>   |    8.733|
+frac_in<7>     |frac_out<19>   |    8.470|
+frac_in<7>     |frac_out<20>   |    8.392|
+frac_in<7>     |frac_out<21>   |    8.722|
+frac_in<7>     |frac_out<22>   |    8.081|
+frac_in<7>     |frac_out<23>   |    8.263|
+frac_in<7>     |frac_out<24>   |    8.650|
+frac_in<8>     |frac_out<5>    |    8.316|
+frac_in<8>     |frac_out<6>    |    8.234|
+frac_in<8>     |frac_out<7>    |    8.632|
+frac_in<8>     |frac_out<8>    |    8.989|
+frac_in<8>     |frac_out<9>    |    9.023|
+frac_in<8>     |frac_out<10>   |    9.070|
+frac_in<8>     |frac_out<11>   |    9.013|
+frac_in<8>     |frac_out<12>   |    8.957|
+frac_in<8>     |frac_out<13>   |    8.939|
+frac_in<8>     |frac_out<14>   |    8.930|
+frac_in<8>     |frac_out<15>   |    8.648|
+frac_in<8>     |frac_out<16>   |    8.996|
+frac_in<8>     |frac_out<17>   |    8.593|
+frac_in<8>     |frac_out<18>   |    8.937|
+frac_in<8>     |frac_out<19>   |    8.674|
+frac_in<8>     |frac_out<20>   |    8.596|
+frac_in<8>     |frac_out<21>   |    8.926|
+frac_in<8>     |frac_out<22>   |    8.285|
+frac_in<8>     |frac_out<23>   |    8.467|
+frac_in<8>     |frac_out<24>   |    8.854|
+frac_in<9>     |frac_out<6>    |    8.522|
+frac_in<9>     |frac_out<7>    |    8.972|
+frac_in<9>     |frac_out<8>    |    9.345|
+frac_in<9>     |frac_out<9>    |    9.375|
+frac_in<9>     |frac_out<10>   |    9.422|
+frac_in<9>     |frac_out<11>   |    9.365|
+frac_in<9>     |frac_out<12>   |    9.309|
+frac_in<9>     |frac_out<13>   |    9.291|
+frac_in<9>     |frac_out<14>   |    9.282|
+frac_in<9>     |frac_out<15>   |    9.000|
+frac_in<9>     |frac_out<16>   |    9.348|
+frac_in<9>     |frac_out<17>   |    8.945|
+frac_in<9>     |frac_out<18>   |    9.289|
+frac_in<9>     |frac_out<19>   |    9.026|
+frac_in<9>     |frac_out<20>   |    8.948|
+frac_in<9>     |frac_out<21>   |    9.278|
+frac_in<9>     |frac_out<22>   |    8.637|
+frac_in<9>     |frac_out<23>   |    8.819|
+frac_in<9>     |frac_out<24>   |    9.206|
+frac_in<10>    |frac_out<7>    |    8.350|
+frac_in<10>    |frac_out<8>    |    8.700|
+frac_in<10>    |frac_out<9>    |    8.763|
+frac_in<10>    |frac_out<10>   |    8.810|
+frac_in<10>    |frac_out<11>   |    8.753|
+frac_in<10>    |frac_out<12>   |    8.697|
+frac_in<10>    |frac_out<13>   |    8.679|
+frac_in<10>    |frac_out<14>   |    8.670|
+frac_in<10>    |frac_out<15>   |    8.388|
+frac_in<10>    |frac_out<16>   |    8.736|
+frac_in<10>    |frac_out<17>   |    8.333|
+frac_in<10>    |frac_out<18>   |    8.677|
+frac_in<10>    |frac_out<19>   |    8.414|
+frac_in<10>    |frac_out<20>   |    8.336|
+frac_in<10>    |frac_out<21>   |    8.666|
+frac_in<10>    |frac_out<22>   |    8.025|
+frac_in<10>    |frac_out<23>   |    8.207|
+frac_in<10>    |frac_out<24>   |    8.594|
+frac_in<11>    |frac_out<8>    |    8.599|
+frac_in<11>    |frac_out<9>    |    8.688|
+frac_in<11>    |frac_out<10>   |    8.735|
+frac_in<11>    |frac_out<11>   |    8.678|
+frac_in<11>    |frac_out<12>   |    8.622|
+frac_in<11>    |frac_out<13>   |    8.604|
+frac_in<11>    |frac_out<14>   |    8.595|
+frac_in<11>    |frac_out<15>   |    8.313|
+frac_in<11>    |frac_out<16>   |    8.661|
+frac_in<11>    |frac_out<17>   |    8.258|
+frac_in<11>    |frac_out<18>   |    8.602|
+frac_in<11>    |frac_out<19>   |    8.339|
+frac_in<11>    |frac_out<20>   |    8.261|
+frac_in<11>    |frac_out<21>   |    8.591|
+frac_in<11>    |frac_out<22>   |    7.950|
+frac_in<11>    |frac_out<23>   |    8.132|
+frac_in<11>    |frac_out<24>   |    8.519|
+frac_in<12>    |frac_out<9>    |    8.638|
+frac_in<12>    |frac_out<10>   |    8.664|
+frac_in<12>    |frac_out<11>   |    8.736|
+frac_in<12>    |frac_out<12>   |    8.668|
+frac_in<12>    |frac_out<13>   |    8.689|
+frac_in<12>    |frac_out<14>   |    8.680|
+frac_in<12>    |frac_out<15>   |    8.398|
+frac_in<12>    |frac_out<16>   |    8.746|
+frac_in<12>    |frac_out<17>   |    8.343|
+frac_in<12>    |frac_out<18>   |    8.687|
+frac_in<12>    |frac_out<19>   |    8.424|
+frac_in<12>    |frac_out<20>   |    8.346|
+frac_in<12>    |frac_out<21>   |    8.676|
+frac_in<12>    |frac_out<22>   |    8.035|
+frac_in<12>    |frac_out<23>   |    8.217|
+frac_in<12>    |frac_out<24>   |    8.604|
+frac_in<13>    |frac_out<10>   |    8.671|
+frac_in<13>    |frac_out<11>   |    8.795|
+frac_in<13>    |frac_out<12>   |    8.743|
+frac_in<13>    |frac_out<13>   |    8.760|
+frac_in<13>    |frac_out<14>   |    8.751|
+frac_in<13>    |frac_out<15>   |    8.469|
+frac_in<13>    |frac_out<16>   |    8.817|
+frac_in<13>    |frac_out<17>   |    8.414|
+frac_in<13>    |frac_out<18>   |    8.758|
+frac_in<13>    |frac_out<19>   |    8.495|
+frac_in<13>    |frac_out<20>   |    8.417|
+frac_in<13>    |frac_out<21>   |    8.747|
+frac_in<13>    |frac_out<22>   |    8.106|
+frac_in<13>    |frac_out<23>   |    8.288|
+frac_in<13>    |frac_out<24>   |    8.675|
+frac_in<14>    |frac_out<11>   |    8.876|
+frac_in<14>    |frac_out<12>   |    8.801|
+frac_in<14>    |frac_out<13>   |    8.851|
+frac_in<14>    |frac_out<14>   |    8.842|
+frac_in<14>    |frac_out<15>   |    8.560|
+frac_in<14>    |frac_out<16>   |    8.908|
+frac_in<14>    |frac_out<17>   |    8.505|
+frac_in<14>    |frac_out<18>   |    8.849|
+frac_in<14>    |frac_out<19>   |    8.586|
+frac_in<14>    |frac_out<20>   |    8.508|
+frac_in<14>    |frac_out<21>   |    8.838|
+frac_in<14>    |frac_out<22>   |    8.197|
+frac_in<14>    |frac_out<23>   |    8.379|
+frac_in<14>    |frac_out<24>   |    8.766|
+frac_in<15>    |frac_out<12>   |    8.989|
+frac_in<15>    |frac_out<13>   |    9.065|
+frac_in<15>    |frac_out<14>   |    9.056|
+frac_in<15>    |frac_out<15>   |    8.774|
+frac_in<15>    |frac_out<16>   |    9.122|
+frac_in<15>    |frac_out<17>   |    8.719|
+frac_in<15>    |frac_out<18>   |    9.063|
+frac_in<15>    |frac_out<19>   |    8.800|
+frac_in<15>    |frac_out<20>   |    8.722|
+frac_in<15>    |frac_out<21>   |    9.052|
+frac_in<15>    |frac_out<22>   |    8.411|
+frac_in<15>    |frac_out<23>   |    8.593|
+frac_in<15>    |frac_out<24>   |    8.980|
+frac_in<16>    |frac_out<13>   |    8.866|
+frac_in<16>    |frac_out<14>   |    8.836|
+frac_in<16>    |frac_out<15>   |    8.683|
+frac_in<16>    |frac_out<16>   |    9.019|
+frac_in<16>    |frac_out<17>   |    8.655|
+frac_in<16>    |frac_out<18>   |    8.999|
+frac_in<16>    |frac_out<19>   |    8.736|
+frac_in<16>    |frac_out<20>   |    8.658|
+frac_in<16>    |frac_out<21>   |    8.988|
+frac_in<16>    |frac_out<22>   |    8.347|
+frac_in<16>    |frac_out<23>   |    8.529|
+frac_in<16>    |frac_out<24>   |    8.916|
+frac_in<17>    |frac_out<14>   |    8.959|
+frac_in<17>    |frac_out<15>   |    8.858|
+frac_in<17>    |frac_out<16>   |    9.210|
+frac_in<17>    |frac_out<17>   |    8.842|
+frac_in<17>    |frac_out<18>   |    9.186|
+frac_in<17>    |frac_out<19>   |    8.923|
+frac_in<17>    |frac_out<20>   |    8.845|
+frac_in<17>    |frac_out<21>   |    9.175|
+frac_in<17>    |frac_out<22>   |    8.534|
+frac_in<17>    |frac_out<23>   |    8.716|
+frac_in<17>    |frac_out<24>   |    9.103|
+frac_in<18>    |frac_out<15>   |    8.779|
+frac_in<18>    |frac_out<16>   |    9.108|
+frac_in<18>    |frac_out<17>   |    8.773|
+frac_in<18>    |frac_out<18>   |    9.117|
+frac_in<18>    |frac_out<19>   |    8.854|
+frac_in<18>    |frac_out<20>   |    8.776|
+frac_in<18>    |frac_out<21>   |    9.106|
+frac_in<18>    |frac_out<22>   |    8.465|
+frac_in<18>    |frac_out<23>   |    8.647|
+frac_in<18>    |frac_out<24>   |    9.034|
+frac_in<19>    |frac_out<16>   |    8.750|
+frac_in<19>    |frac_out<17>   |    8.441|
+frac_in<19>    |frac_out<18>   |    8.785|
+frac_in<19>    |frac_out<19>   |    8.522|
+frac_in<19>    |frac_out<20>   |    8.444|
+frac_in<19>    |frac_out<21>   |    8.774|
+frac_in<19>    |frac_out<22>   |    8.133|
+frac_in<19>    |frac_out<23>   |    8.315|
+frac_in<19>    |frac_out<24>   |    8.702|
+frac_in<20>    |frac_out<17>   |    9.130|
+frac_in<20>    |frac_out<18>   |    9.453|
+frac_in<20>    |frac_out<19>   |    9.319|
+frac_in<20>    |frac_out<20>   |    9.229|
+frac_in<20>    |frac_out<21>   |    9.598|
+frac_in<20>    |frac_out<22>   |    8.957|
+frac_in<20>    |frac_out<23>   |    9.139|
+frac_in<20>    |frac_out<24>   |    9.526|
+frac_in<21>    |frac_out<18>   |    8.808|
+frac_in<21>    |frac_out<19>   |    8.726|
+frac_in<21>    |frac_out<20>   |    8.652|
+frac_in<21>    |frac_out<21>   |    9.017|
+frac_in<21>    |frac_out<22>   |    8.376|
+frac_in<21>    |frac_out<23>   |    8.558|
+frac_in<21>    |frac_out<24>   |    8.945|
+frac_in<22>    |frac_out<19>   |    9.055|
+frac_in<22>    |frac_out<20>   |    8.958|
+frac_in<22>    |frac_out<21>   |    9.356|
+frac_in<22>    |frac_out<22>   |    8.715|
+frac_in<22>    |frac_out<23>   |    8.897|
+frac_in<22>    |frac_out<24>   |    9.284|
+frac_in<23>    |frac_out<20>   |    8.918|
+frac_in<23>    |frac_out<21>   |    9.342|
+frac_in<23>    |frac_out<22>   |    8.701|
+frac_in<23>    |frac_out<23>   |    8.883|
+frac_in<23>    |frac_out<24>   |    9.270|
+frac_in<24>    |frac_out<21>   |    9.928|
+frac_in<24>    |frac_out<22>   |    9.266|
+frac_in<24>    |frac_out<23>   |    9.577|
+frac_in<24>    |frac_out<24>   |    9.952|
+frac_in<25>    |frac_out<22>   |    8.424|
+frac_in<25>    |frac_out<23>   |    8.787|
+frac_in<25>    |frac_out<24>   |    9.178|
+frac_in<26>    |frac_out<23>   |    9.047|
+frac_in<26>    |frac_out<24>   |    9.415|
+frac_in<27>    |frac_out<24>   |    8.911|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Nov 26 05:47:02 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 219 MB
+
+
+

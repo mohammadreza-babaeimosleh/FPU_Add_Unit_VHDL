@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shift_right_ex3.ngc shift_right_ex3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_right_ex3_map.ncd shift_right_ex3.ngd shift_right_ex3.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shift_right_ex3.ngc shift_right_ex3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_right_ex3_map.ncd shift_right_ex3.ngd shift_right_ex3.pcf 
+par -w -intstyle ise -ol high -mt off shift_right_ex3_map.ncd shift_right_ex3.ncd shift_right_ex3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift_right_ex3.twx shift_right_ex3.ncd -o shift_right_ex3.twr shift_right_ex3.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shift_right_ex3.ngc shift_right_ex3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_right_ex3_map.ncd shift_right_ex3.ngd shift_right_ex3.pcf 
+par -w -intstyle ise -ol high -mt off shift_right_ex3_map.ncd shift_right_ex3.ncd shift_right_ex3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift_right_ex3.twx shift_right_ex3.ncd -o shift_right_ex3.twr shift_right_ex3.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shift_right_ex3.ngc shift_right_ex3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_right_ex3_map.ncd shift_right_ex3.ngd shift_right_ex3.pcf 
+par -w -intstyle ise -ol high -mt off shift_right_ex3_map.ncd shift_right_ex3.ncd shift_right_ex3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift_right_ex3.twx shift_right_ex3.ncd -o shift_right_ex3.twr shift_right_ex3.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm test2.bmm -p xc6slx16-csg324-3 shift_right_ex3.ngc shift_right_ex3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_right_ex3_map.ncd shift_right_ex3.ngd shift_right_ex3.pcf 
+par -w -intstyle ise -ol high -mt off shift_right_ex3_map.ncd shift_right_ex3.ncd shift_right_ex3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift_right_ex3.twx shift_right_ex3.ncd -o shift_right_ex3.twr shift_right_ex3.pcf 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.xst" -ofn "C:/Users/ayroz/Desktop/four/shift_right/shift_right_ex3/shift_right_ex3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm test2.bmm -p xc6slx16-csg324-3 shift_right_ex3.ngc shift_right_ex3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_right_ex3_map.ncd shift_right_ex3.ngd shift_right_ex3.pcf 
+par -w -intstyle ise -ol high -mt off shift_right_ex3_map.ncd shift_right_ex3.ncd shift_right_ex3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift_right_ex3.twx shift_right_ex3.ncd -o shift_right_ex3.twr shift_right_ex3.pcf 

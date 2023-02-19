@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/s2c/s2c/s2c.xst" -ofn "C:/Users/ayroz/Desktop/four/s2c/s2c/s2c.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/s2c/s2c/s2c.xst" -ofn "C:/Users/ayroz/Desktop/four/s2c/s2c/s2c.syr" 
+xst -intstyle ise -ifn "C:/Users/ayroz/Desktop/four/s2c/s2c/s2c.xst" -ofn "C:/Users/ayroz/Desktop/four/s2c/s2c/s2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 s2c.ngc s2c.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o s2c_map.ncd s2c.ngd s2c.pcf 
+par -w -intstyle ise -ol high -mt off s2c_map.ncd s2c.ncd s2c.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml s2c.twx s2c.ncd -o s2c.twr s2c.pcf 

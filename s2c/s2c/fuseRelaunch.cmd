@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "G:/onlinelessons/computer architecture/VHDL/project_FPA/four/four/s2c/s2c/test_isim_beh.exe" -prj "G:/onlinelessons/computer architecture/VHDL/project_FPA/four/four/s2c/s2c/test_beh.prj" "work.test" 

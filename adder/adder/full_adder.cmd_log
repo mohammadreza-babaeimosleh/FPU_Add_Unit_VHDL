@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "G:/onlinelessons/computer architecture/VHDL/project_FPA/four/four/adder/adder/full_adder.xst" -ofn "G:/onlinelessons/computer architecture/VHDL/project_FPA/four/four/adder/adder/full_adder.syr" 
+xst -intstyle ise -ifn "G:/onlinelessons/computer architecture/VHDL/project_FPA/four/four/adder/adder/full_adder.xst" -ofn "G:/onlinelessons/computer architecture/VHDL/project_FPA/four/four/adder/adder/full_adder.syr" 
